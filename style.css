@@ -1,3 +1,46 @@
 body{
     font-family: 'Lora', serif;
 }
+.top-part{
+    display: flex;
+    background:rgba(221, 218, 218, 0.788);
+    background-size: 100% 100%;
+    padding:5%;
+}
+.head1{
+    color:yellowgreen;
+}
+.head2{
+    color:tomato;
+}
+.left1{
+    width: 50%;
+}
+.right1{
+    width: 50%;
+}
+.right1 img{
+    width: 80%;
+    float: right;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+    padding-left:10%;
+}
+p{
+    text-align: justify;
+}
+.link-button{
+    padding-top: 5%;
+}
+.link-button a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color:white;
+    font-weight: 700;
+    padding:10px 40px;
+    border-radius: 10px;
+}
