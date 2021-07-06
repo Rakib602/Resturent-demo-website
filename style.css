@@ -24,10 +24,10 @@ body{
     float: right;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
     padding-left:10%;
 }
 p{
@@ -63,4 +63,66 @@ p{
 }
 .right2 h2{
     text-align: center;
+}
+.third-part{
+    background: whitesmoke;
+    background-size: 100% 100%;
+}
+.recipi{
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.food-item{
+    display: flex;
+    margin:2%;
+}
+.item1{
+    box-shadow: gray 10px 10px 30px;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.item2{
+    box-shadow: gray 10px 10px 30px;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.item3{
+    box-shadow: gray 10px 10px 30px;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.food-item img{
+    width:100%;
+    margin:2%;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    background: black;
+    padding: 2%;
+}
+.foot1{
+    color: yellowgreen;
+    font-size: 25Px;
+}
+.foot2{
+    color: tomato;
+    font-size: 25Px;
+}
+.foot3{
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
